@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Annan_kofi"></activity>
+        <activity
+            android:name=".gyanko"
+            android:label="@string/title_activity_gyanko"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Annan_kofi" />
         <activity android:name=".logo_" />
         <activity
             android:name=".MainActivity"
