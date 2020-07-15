@@ -9,11 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+ Prince_Appiah
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+
 
         <activity
             android:name=".gyanko"
             android:label="@string/title_activity_gyanko"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+ master
         <activity android:name=".Annan_kofi" />
         <activity android:name=".logo_" />
         <activity
